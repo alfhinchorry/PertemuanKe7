@@ -19,13 +19,15 @@ Pada tugas pertama, saya diminta untuk membuat sebuah program pengulangan bertin
         print("{0:>5}".format(tab), end='')
     print()
     
-    Mengapa demikian? Karena untuk dapat melakukan pengulangan bertingkat kamu perlu memasukan
+Mengapa demikian? Karena untuk dapat melakukan pengulangan bertingkat kamu perlu memasukan
+
     for bar in range(baris):
     for col in range(kolom):
         tab = bar+col
         print("{0:>5}".format(tab), end='')
     print()
-    dan karena pada syntax tersebut kamu membutuhkan baris dan kolom maka sebelum memasukan syntax diatas kamu perlu menambahkan keterangan baris dan kolom sesuai yang kalian butuhkan seperti ini.
+    
+dan karena pada syntax tersebut kamu membutuhkan baris dan kolom maka sebelum memasukan syntax diatas kamu perlu menambahkan keterangan baris dan kolom sesuai yang kalian butuhkan seperti ini.
 
     baris = 10
     kolom = baris
